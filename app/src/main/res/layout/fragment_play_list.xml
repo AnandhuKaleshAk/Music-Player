@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="40dp">
+
+
+
+        <TextView
+              android:layout_width="0dp"
+              android:textColor="@color/ColorWhite"
+              android:textSize="@dimen/text_size_medium"
+              android:gravity="left|center"
+              android:layout_weight="2"
+              android:paddingLeft="16dp"
+              android:text="@string/text_playlist_create"
+              android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/add_playlist_image"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            app:srcCompat="@drawable/ic_add"
+            android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/playlist_recyclerview"
+        android:layout_marginTop="8dp"
+        tools:listitem="@layout/row_album_song"
+        android:layout_height="match_parent"/>
+
+    
+
+</LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

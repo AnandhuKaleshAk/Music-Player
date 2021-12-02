@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/toolBarRelativeLayout"
+                android:visibility="gone"
+                android:background="@color/colorLightGrey"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbarDetail"
+                    android:background="@color/colorLightBrown"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <ImageView
+                        android:id="@+id/image_toolabar_back"
+                        android:layout_width="60dp"
+
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:paddingTop="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="16dp"
+                        app:srcCompat="@drawable/ic_arrow_back" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/app_bar"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_bar_height_scroll"
+                android:fitsSystemWindows="true"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                    app:toolbarId="@+id/toolbar">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/image_albumdetail_cover"
+                        app:srcCompat="@drawable/ic_music_image_large"
+                        android:scaleType="centerCrop"
+                        android:layout_height="match_parent"/>
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:alpha="0.3"
+                        android:background="@color/colorBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        app:layout_collapseMode="pin"
+                        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:paddingTop="16dp"
+
+                            android:paddingBottom="16dp"
+                            android:paddingRight="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:id="@+id/image_abumdetail_back"
+                            app:srcCompat="@drawable/ic_arrow_back"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/app_bar"
+                android:id="@+id/recyclerview_album_detail"
+                android:layout_width="match_parent"
+                tools:listitem="@layout/row_albumdetails_song"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

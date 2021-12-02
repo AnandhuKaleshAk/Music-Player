@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.l4digital.fastscroll:fastscroll:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/f7ebad1f29dc087932fdbf76c3d02d74/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/f7ebad1f29dc087932fdbf76c3d02d74/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/f7ebad1f29dc087932fdbf76c3d02d74/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/581a402c83045d48e7b225f275131fd5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/581a402c83045d48e7b225f275131fd5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/581a402c83045d48e7b225f275131fd5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.l4digital.fastscroll/fastscroll/2.0.1/2fbe0ba60e2ce5fec937a2dc1451c691ac7a19fb/fastscroll-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

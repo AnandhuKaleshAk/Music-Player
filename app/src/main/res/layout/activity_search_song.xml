@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.search.SearchSongActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorLightBrown"
+        android:layout_height="?attr/actionBarSize">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/search_back_image"
+                app:srcCompat="@drawable/ic_arrow_back"
+                android:layout_height="match_parent"/>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="0dp"
+                android:background="@null"
+                android:textSize="16sp"
+                android:id="@+id/search_song_editText"
+                android:textColor="@color/colorWhite"
+                android:focusable="true"
+                android:layout_weight="5"
+                android:textColorHint="@color/colorLightWhite"
+                android:hint="@string/action_search"
+                android:inputType="text|textAutoComplete"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_height="match_parent"/>
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:id="@+id/search_close_imageview"
+                app:srcCompat="@drawable/ic_close"
+                android:layout_weight="0.5"
+                android:layout_marginRight="32dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="8dp"
+        android:id="@+id/recyclerview_search"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/row_album_song"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

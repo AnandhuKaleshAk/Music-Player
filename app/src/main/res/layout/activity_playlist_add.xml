@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.playlist.add.PlayListAddActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/playlist_toolbar"
+        android:background="@color/colorLightBrown"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:id="@+id/count_selectSong_text"
+
+                android:textSize="@dimen/text_size_large"
+                android:text="@string/text_selectSong_count"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+
+                app:srcCompat="@drawable/ic_tick"
+                android:layout_marginRight="56dp"
+                android:layout_alignRight="@+id/discard_selectSong_image"
+
+
+                android:id="@+id/save_selectSong_image"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_delete"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="84dp"
+                android:id="@+id/discard_selectSong_image"
+                android:layout_height="match_parent"/>
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:id="@+id/all_selectSong_checkbox"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="32dp"
+    android:buttonTint="@color/colorWhite"
+
+    android:layout_height="match_parent"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        tools:listitem="@layout/row_playlist_select"
+        android:id="@+id/song_select_recyclerview"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

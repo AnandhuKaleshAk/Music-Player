@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sothree.slidinguppanel:library:3.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/cd6954126e8b4a7a7d81c180788bb579/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/cd6954126e8b4a7a7d81c180788bb579/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/cd6954126e8b4a7a7d81c180788bb579/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/a073bebacdecce6c8fe3abcbdff8982c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/a073bebacdecce6c8fe3abcbdff8982c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/a073bebacdecce6c8fe3abcbdff8982c/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sothree.slidinguppanel/library/3.4.0/28720c57763dbf7fd8abf4a2c63f7ed4cd04c460/library-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

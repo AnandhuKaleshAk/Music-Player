@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.equalizer.EqualizerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/equalizer_toolbar"
+        android:background="@color/colorLightBrown"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/back_toolbarEqualizer_image"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_arrow_back"
+                android:layout_height="match_parent"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/back_toolbarEqualizer_image"
+                android:text="@string/text_title_equalizer"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/title_toolbar_textView"
+                android:layout_height="match_parent"/>
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:id="@+id/enableDisableEqualizerSwitch"
+                style="@style/SCBSwitch"
+                android:layout_marginRight="16dp"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/equalizer_toolbar"
+        android:layout_margin="16dp"
+        android:id="@+id/equalizer_custom_textview"
+        android:text="@string/text_title_equalizer"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+<Button
+    android:layout_width="100dp"
+    android:id="@+id/custom_equalizer_button"
+    android:layout_below="@id/equalizer_custom_textview"
+    android:layout_marginLeft="16dp"
+    android:padding="-4dp"
+    android:textSize="12sp"
+    android:background="@drawable/rounded_border_equalizer"
+    android:layout_marginRight="16dp"
+    android:textColor="@color/colorWhite"
+    android:text="@string/text_equalizer_custom"
+    android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/equalizerContainer"
+        android:layout_margin="16dp"
+        android:layout_below="@id/custom_equalizer_button"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="6"
+
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+
+                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+
+                    android:layoutDirection="ltr"
+                    >
+
+                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                        android:id="@+id/hz80Seekar"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" style="@style/MySeekBar"
+                        android:progress="40"
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp"
+
+                        android:thumb="@drawable/custom_equalizer_thumb"
+                        app:seekBarRotation="CW270" />
+                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/hz80TextView"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorLightGrey"
+                    android:text="@string/text_equalizer_80hz"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+
+                    android:layoutDirection="ltr"
+                    >
+
+                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                        android:id="@+id/hz230Seekar"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" style="@style/MySeekBar"
+                        android:progress="40"
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp"
+
+                        android:thumb="@drawable/custom_equalizer_thumb"
+                        app:seekBarRotation="CW270" />
+                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/hz230TextView"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorLightGrey"
+                    android:text="@string/text_equalizer_230hz"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+
+                    android:layoutDirection="ltr"
+                    >
+
+                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                        android:id="@+id/hz910Seekar"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" style="@style/MySeekBar"
+                        android:progress="40"
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp"
+
+                        android:thumb="@drawable/custom_equalizer_thumb"
+                        app:seekBarRotation="CW270" />
+                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/hz910TextView"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorLightGrey"
+                    android:text="@string/text_equalizer_910hz"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+
+                    android:layoutDirection="ltr"
+                    >
+
+                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                        android:id="@+id/hz3600Seekar"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" style="@style/MySeekBar"
+                        android:progress="40"
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp"
+
+                        android:thumb="@drawable/custom_equalizer_thumb"
+                        app:seekBarRotation="CW270" />
+                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/hz3600TextView"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorLightGrey"
+                    android:text="@string/text_equalizer_3600hz"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+
+                    android:layoutDirection="ltr"
+                    >
+
+                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                        android:id="@+id/hz14000Seekar"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" style="@style/MySeekBar"
+                        android:progress="40"
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp"
+
+                        android:thumb="@drawable/custom_equalizer_thumb"
+                        app:seekBarRotation="CW270" />
+                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/hz14000TextView"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorLightGrey"
+                    android:text="@string/text_equalizer_14000hz"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal">
+
+            <com.music.darkmusicplayer.customviews.AnalogController
+                android:id="@+id/controllerBass"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.music.darkmusicplayer.customviews.AnalogController
+                android:id="@+id/controller3D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

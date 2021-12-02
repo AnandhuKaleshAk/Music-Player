@@ -1,0 +1,362 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:2:1-19:12
+MERGED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:2:1-19:12
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-verticalseekbar-0.7.0.aar\e08737215a831e67e8057a2f8533d816\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\material-1.3.0.aar\6ac23dcffebca5c32ed644c0c09fe20a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.l4digital.fastscroll:fastscroll:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\fastscroll-2.0.1.aar\581a402c83045d48e7b225f275131fd5\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.1.aar\e22ba121bec20d34d70d4739631bddaf\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\appcompat-1.2.0.aar\e8729b3a10f170c28b08ec1c1ea11079\AndroidManifest.xml:17:1-24:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-library-3.4.0.aar\a073bebacdecce6c8fe3abcbdff8982c\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\33359aa6d27f31d9bcfa7ead539c7349\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\butterknife-10.1.0.aar\e3ad165e35cbabb4a0659550f1dbee12\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\2445ab1b8c97da899f9075b234b98f7a\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\8b5eac90437fb7a87712ac69eefef3d4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:20:1-32:12
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\1e1a0fa6db1e4ebcea93a8fb34d27a26\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\73a98b6c1aa97a78c38e324b5a5a7f80\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\7e8b302d468abfc0cf0212656e70b68f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\768510c0c641f2748bf250363e0cd5c9\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\afc14133eda56bf3f17c8b99551dde4e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\328cfb1d05a2684a70bbbf5a8e41ff64\AndroidManifest.xml:17:1-22:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.9] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.9.aar\89379ff579a98b9083ff3eee5abcac55\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\dynamicanimation-1.0.0.aar\3565fa26e71ebaf0956f4e684aa604fd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\d6e6bb49636ddfd6216000d9a66a9cc3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\89594d474813aa78dccf0348f2850696\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\9c58648da33b72238a44a996dd8c553b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\36e0994f940fd0ad2835e00cf5829726\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\0a7402e5ec16fafe67666944235c0622\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.2.0.aar\9aa68172663c9681e356c4dbfe8deda7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\77ce292526ede0730dde2a1fb877d993\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\ef765ecdd530ddc852748b72fcb1839e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\70ee7fa17f8eab75c317561c2a550585\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\9ac506d4cf290719580ca5753f2fef30\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c33c1af4331d10ec9efec40d5d487cbf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.1.aar\4ff1f336bbb4eda9f8b0a79d990fc309\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\sqlite-framework-2.0.1.aar\ddaf1aecf188cd4689d71c0acd27a9a6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\sqlite-2.0.1.aar\725c49f2e846907c19ec1c5b630d4d0c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c69fc6fd1b3170bac3d8d35713b110fb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\0fe1b26f7617c1d8148da160fabc071e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\98bdacb49ac7efe7d081084b14142dcc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\3a7569d787a68be276f199817d2cf1f4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\b54e065502c30083b1b270e7084a5103\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\7dfa933984a33d379fb3e3b7558e21da\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\8200a34a5f7edfd49fd0ffa1b0871620\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc881052b104f9d240e32914ac8f993c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\b6ce237483513807614bedffebf8c070\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\7134d4ebf3caa372b1e376103a91d081\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-10.1.0.aar\aabb784f678e995cfecf22669fbfd429\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\8775771725c84588ab23e37877b5a2fc\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-1.3.1.aar\c3f47ea4364cdd2f9ee2da2d0ad53c10\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\31427815a775d0b2d328e87c3f0f2a59\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.0.0.aar\3f8fdd0e72a887a29bb4ad0152e36be9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\70b24007f782e69a378d69a015a53ed7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\85e7282c077e9b7eed5ac6d83fbf86dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\c2b62eb9b5f436611eecfa8ed2c59219\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\e296517e7b0ef12dc083826bdb73d949\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\annotation-experimental-1.0.0.aar\15ec4d5a65e3ec219f8bfec74ebc576a\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:29:5-67
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:8:1-76
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:8:18-74
+permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:9:17-72
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:11:22-72
+application
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:13:5-40:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\material-1.3.0.aar\6ac23dcffebca5c32ed644c0c09fe20a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\material-1.3.0.aar\6ac23dcffebca5c32ed644c0c09fe20a\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.1.aar\e22ba121bec20d34d70d4739631bddaf\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.1.aar\e22ba121bec20d34d70d4739631bddaf\AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-library-3.4.0.aar\a073bebacdecce6c8fe3abcbdff8982c\AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-library-3.4.0.aar\a073bebacdecce6c8fe3abcbdff8982c\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\8b5eac90437fb7a87712ac69eefef3d4\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\8b5eac90437fb7a87712ac69eefef3d4\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:24:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\768510c0c641f2748bf250363e0cd5c9\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\768510c0c641f2748bf250363e0cd5c9\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-1.3.1.aar\c3f47ea4364cdd2f9ee2da2d0ad53c10\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-1.3.1.aar\c3f47ea4364cdd2f9ee2da2d0ad53c10\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\31427815a775d0b2d328e87c3f0f2a59\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\31427815a775d0b2d328e87c3f0f2a59\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\e296517e7b0ef12dc083826bdb73d949\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\e296517e7b0ef12dc083826bdb73d949\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-1.3.1.aar\c3f47ea4364cdd2f9ee2da2d0ad53c10\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:17:9-41
+	tools:ignore
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:21:9-48
+	android:roundIcon
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:18:9-48
+	android:icon
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:14:9-38
+activity#com.music.darkmusicplayer.ui.equalizer.EqualizerActivity
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:22:9-77
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:22:19-65
+activity#com.music.darkmusicplayer.ui.settings.SettingsActivity
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:23:9-66
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:23:19-63
+activity#com.music.darkmusicplayer.ui.sleeptimer.SleepTimerActivity
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:24:9-70
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:24:19-67
+activity#com.music.darkmusicplayer.ui.search.SearchSongActivity
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:25:9-66
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:25:19-63
+activity#com.music.darkmusicplayer.ui.artists.artistdetail.ArtistDetailFragment
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:26:9-82
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:26:19-79
+activity#com.music.darkmusicplayer.ui.playlist.add.PlayListAddActivity
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:27:9-73
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:27:19-70
+activity#com.music.darkmusicplayer.ui.main.MainActivity
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:28:9-37:20
+	android:label
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:30:13-56
+	android:theme
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:29:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:35:27-74
+service#com.music.darkmusicplayer.PlayerService
+ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:39:9-50
+	android:name
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml:39:18-47
+uses-sdk
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-verticalseekbar-0.7.0.aar\e08737215a831e67e8057a2f8533d816\AndroidManifest.xml:23:5-25:41
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-verticalseekbar-0.7.0.aar\e08737215a831e67e8057a2f8533d816\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\material-1.3.0.aar\6ac23dcffebca5c32ed644c0c09fe20a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\material-1.3.0.aar\6ac23dcffebca5c32ed644c0c09fe20a\AndroidManifest.xml:20:5-44
+MERGED from [com.l4digital.fastscroll:fastscroll:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\fastscroll-2.0.1.aar\581a402c83045d48e7b225f275131fd5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.l4digital.fastscroll:fastscroll:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\fastscroll-2.0.1.aar\581a402c83045d48e7b225f275131fd5\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.1.aar\e22ba121bec20d34d70d4739631bddaf\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.1.aar\e22ba121bec20d34d70d4739631bddaf\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\appcompat-1.2.0.aar\e8729b3a10f170c28b08ec1c1ea11079\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\appcompat-1.2.0.aar\e8729b3a10f170c28b08ec1c1ea11079\AndroidManifest.xml:20:5-22:41
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-library-3.4.0.aar\a073bebacdecce6c8fe3abcbdff8982c\AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-library-3.4.0.aar\a073bebacdecce6c8fe3abcbdff8982c\AndroidManifest.xml:7:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\33359aa6d27f31d9bcfa7ead539c7349\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\33359aa6d27f31d9bcfa7ead539c7349\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\butterknife-10.1.0.aar\e3ad165e35cbabb4a0659550f1dbee12\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\butterknife-10.1.0.aar\e3ad165e35cbabb4a0659550f1dbee12\AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\2445ab1b8c97da899f9075b234b98f7a\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\2445ab1b8c97da899f9075b234b98f7a\AndroidManifest.xml:18:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\8b5eac90437fb7a87712ac69eefef3d4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\8b5eac90437fb7a87712ac69eefef3d4\AndroidManifest.xml:20:5-44
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\1e1a0fa6db1e4ebcea93a8fb34d27a26\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\1e1a0fa6db1e4ebcea93a8fb34d27a26\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\73a98b6c1aa97a78c38e324b5a5a7f80\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\73a98b6c1aa97a78c38e324b5a5a7f80\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\7e8b302d468abfc0cf0212656e70b68f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\7e8b302d468abfc0cf0212656e70b68f\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\768510c0c641f2748bf250363e0cd5c9\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\768510c0c641f2748bf250363e0cd5c9\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\afc14133eda56bf3f17c8b99551dde4e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\afc14133eda56bf3f17c8b99551dde4e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\328cfb1d05a2684a70bbbf5a8e41ff64\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\328cfb1d05a2684a70bbbf5a8e41ff64\AndroidManifest.xml:20:5-44
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.9] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.9.aar\89379ff579a98b9083ff3eee5abcac55\AndroidManifest.xml:7:5-9:41
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.9] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.9.aar\89379ff579a98b9083ff3eee5abcac55\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\dynamicanimation-1.0.0.aar\3565fa26e71ebaf0956f4e684aa604fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\dynamicanimation-1.0.0.aar\3565fa26e71ebaf0956f4e684aa604fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\d6e6bb49636ddfd6216000d9a66a9cc3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\d6e6bb49636ddfd6216000d9a66a9cc3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\89594d474813aa78dccf0348f2850696\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\89594d474813aa78dccf0348f2850696\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\9c58648da33b72238a44a996dd8c553b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\9c58648da33b72238a44a996dd8c553b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\36e0994f940fd0ad2835e00cf5829726\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\36e0994f940fd0ad2835e00cf5829726\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\0a7402e5ec16fafe67666944235c0622\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\0a7402e5ec16fafe67666944235c0622\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.2.0.aar\9aa68172663c9681e356c4dbfe8deda7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.2.0.aar\9aa68172663c9681e356c4dbfe8deda7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\77ce292526ede0730dde2a1fb877d993\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\77ce292526ede0730dde2a1fb877d993\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\ef765ecdd530ddc852748b72fcb1839e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\ef765ecdd530ddc852748b72fcb1839e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\70ee7fa17f8eab75c317561c2a550585\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\70ee7fa17f8eab75c317561c2a550585\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\9ac506d4cf290719580ca5753f2fef30\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\9ac506d4cf290719580ca5753f2fef30\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c33c1af4331d10ec9efec40d5d487cbf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c33c1af4331d10ec9efec40d5d487cbf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.1.aar\4ff1f336bbb4eda9f8b0a79d990fc309\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.1.aar\4ff1f336bbb4eda9f8b0a79d990fc309\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\sqlite-framework-2.0.1.aar\ddaf1aecf188cd4689d71c0acd27a9a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\sqlite-framework-2.0.1.aar\ddaf1aecf188cd4689d71c0acd27a9a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\sqlite-2.0.1.aar\725c49f2e846907c19ec1c5b630d4d0c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\sqlite-2.0.1.aar\725c49f2e846907c19ec1c5b630d4d0c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c69fc6fd1b3170bac3d8d35713b110fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c69fc6fd1b3170bac3d8d35713b110fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\0fe1b26f7617c1d8148da160fabc071e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\0fe1b26f7617c1d8148da160fabc071e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\98bdacb49ac7efe7d081084b14142dcc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\98bdacb49ac7efe7d081084b14142dcc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\3a7569d787a68be276f199817d2cf1f4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\3a7569d787a68be276f199817d2cf1f4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\b54e065502c30083b1b270e7084a5103\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\b54e065502c30083b1b270e7084a5103\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\7dfa933984a33d379fb3e3b7558e21da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\7dfa933984a33d379fb3e3b7558e21da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\8200a34a5f7edfd49fd0ffa1b0871620\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\8200a34a5f7edfd49fd0ffa1b0871620\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc881052b104f9d240e32914ac8f993c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cc881052b104f9d240e32914ac8f993c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\b6ce237483513807614bedffebf8c070\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\b6ce237483513807614bedffebf8c070\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\7134d4ebf3caa372b1e376103a91d081\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\7134d4ebf3caa372b1e376103a91d081\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-10.1.0.aar\aabb784f678e995cfecf22669fbfd429\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-10.1.0.aar\aabb784f678e995cfecf22669fbfd429\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\8775771725c84588ab23e37877b5a2fc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\8775771725c84588ab23e37877b5a2fc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-1.3.1.aar\c3f47ea4364cdd2f9ee2da2d0ad53c10\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\core-1.3.1.aar\c3f47ea4364cdd2f9ee2da2d0ad53c10\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\31427815a775d0b2d328e87c3f0f2a59\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\31427815a775d0b2d328e87c3f0f2a59\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.0.0.aar\3f8fdd0e72a887a29bb4ad0152e36be9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.0.0.aar\3f8fdd0e72a887a29bb4ad0152e36be9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\70b24007f782e69a378d69a015a53ed7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\70b24007f782e69a378d69a015a53ed7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\85e7282c077e9b7eed5ac6d83fbf86dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\85e7282c077e9b7eed5ac6d83fbf86dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\c2b62eb9b5f436611eecfa8ed2c59219\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\c2b62eb9b5f436611eecfa8ed2c59219\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\e296517e7b0ef12dc083826bdb73d949\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\e296517e7b0ef12dc083826bdb73d949\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\annotation-experimental-1.0.0.aar\15ec4d5a65e3ec219f8bfec74ebc576a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\annotation-experimental-1.0.0.aar\15ec4d5a65e3ec219f8bfec74ebc576a\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\anandhu.kalesh\Downloads\AnandhuKaleshAK-music-player-916c51254222\music-player\app\src\main\AndroidManifest.xml
+provider#com.amitshekhar.debug.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:12:9-16:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:15:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\398e9e9769008a4706e1a6a77e347b74\AndroidManifest.xml:13:13-69
+provider#com.amitshekhar.debug.encrypt.DebugDBEncryptInitProvider
+ADDED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:12:9-16:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:15:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:14:13-78
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db-encrypt:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\debug-db-encrypt-1.0.6.aar\a28f481b0b78bdfc3fe542caf69b30b5\AndroidManifest.xml:13:13-84
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\jetified-debug-db-base-1.0.6.aar\7dd87f8d05242e4f61c135708226bce2\AndroidManifest.xml:30:22-73
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\room-runtime-2.1.0.aar\fa1f326acc32fbdb063e474f122b3cb8\AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\anandhu.kalesh\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\4a2add784a33e47094e83e6b5eef5440\AndroidManifest.xml:24:13-79

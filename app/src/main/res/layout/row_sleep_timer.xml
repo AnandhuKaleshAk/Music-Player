@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="0dp"
+         android:text="sadsdsdsdsdsdsd"
+        android:textSize="16sp"
+         android:layout_weight="1"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/minute_timerItem_textview"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:checked="true"
+        android:id="@+id/onOff_timer_radio"
+        android:layout_weight="0.2"
+        android:buttonTint="@color/colorOrange"
+        android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        style="@style/Divider"/>
+</LinearLayout>

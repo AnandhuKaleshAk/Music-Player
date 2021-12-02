@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_marginLeft="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <ImageView
+        android:id="@+id/icon_songItem_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_music" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.06"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <TextView
+        android:id="@+id/name_songItem_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:singleLine="true"
+
+        android:text="@string/song_name_item"
+        android:textColor="@color/ColorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <TextView
+        android:id="@+id/artist_songItem_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:singleLine="true"
+        android:text="@string/song_artist_item"
+        android:textColor="@color/colorLightBlue"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+    <ImageView
+        android:id="@+id/more_folderitem_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingBottom="12dp"
+        android:layout_marginRight="12dp"
+        android:paddingLeft="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:srcCompat="@drawable/ic_more_dots" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.77"  />
+
+
+    <!--<com.example.darkmusicplayer.customviews.MusicVisualizer-->
+    <!--android:layout_width="20dp"-->
+    <!--android:id="@+id/music_visualizer"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/guideline9"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/guideline"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/guideline10" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

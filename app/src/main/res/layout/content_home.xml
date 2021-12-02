@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:clickable="true"
+    android:id="@+id/sliding_layout"
+    app:umanoPanelHeight="60dp"
+    app:umanoShadowHeight="5dp"
+    android:focusable="true">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:gravity="center"
+                android:text="@string/tool_bar_title"
+                android:textColor="@color/ColorWhite"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:id="@+id/search_home"
+                android:src="@drawable/ic_search"
+                android:layout_width="0dp"
+                android:padding="16dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5">
+
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        style="@style/AppTab"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:tabMode="scrollable"/>
+
+    <com.music.darkmusicplayer.utils.CustomViewPager
+        android:layout_width="0dp"
+        android:id="@+id/main_viewPager"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabs" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:clickable="true"
+        android:id="@+id/slidingRelativeLayout"
+        android:layout_height="match_parent">
+
+
+        <androidx.viewpager.widget.ViewPager
+
+            android:id="@+id/now_playing_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+       <include layout="@layout/now_playing_bottom"/>
+
+    </RelativeLayout>
+
+
+
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

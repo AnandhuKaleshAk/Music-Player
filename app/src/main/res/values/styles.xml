@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:itemBackground">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">@color/colorWhite</item>
+        <item name="android:progressTint">@color/colorOrange</item>
+        <item name="android:colorControlActivated">@color/colorWhite</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorOrange</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorLightGrey
+        </item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="iconTint">@color/ColorWhite</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@color/ColorWhite</item>
+        <item name="colorControlNormal">@color/ColorWhite</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorLightBrown</item>
+    </style>
+
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/ic_search</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/ColorWhite</item>
+    </style>
+
+
+    <style name="AppTab" parent="Widget.Design.TabLayout">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="tabTextAppearance">@style/AppTab.TextAppearance</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">@drawable/tab_background</item>
+        <item name="tabSelectedTextColor">@color/colorOrange</item>
+        <item name="tabTextColor">@color/ColorWhite</item>
+    </style>
+
+
+    <style name="AppTab.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="TextAppearance.Design.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/design_tab_text_size</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>
