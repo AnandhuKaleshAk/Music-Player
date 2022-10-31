@@ -29,3 +29,16 @@
 | <img src="screenshots/1.png" width="200"/>| <img src="screenshots/2.png" width="200"/>| <img src="screenshots/3.png" width="200"/>|  <img src="screenshots/5.png" width="200"/>|
 |:---:|:---:|:---:|:---:|
 | Album | Folder | Music playing |Settings |
+
+## 📦 Included Features
+
+
+- Support all music and audio formats, like MP3, MIDI, WAV, FLAC, Music player, songs player, audio player, mp3 player with high quality.
+- Browse all songs by album,artist,genres,folder
+- Dark Theme
+- Playlist
+- Sleep Timer
+- Favorite songs and custom your playlist in mp3 player.
+- Playing notification
+
+
