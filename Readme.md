@@ -18,5 +18,17 @@
     <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg">
   </a>
   
+  
 </p>
 
+
+## 📱 Screenshots
+### App Themes
+| <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" width="200"/> |
+|:---:|:---:|:---:|
+|Clearly white| Kinda dark | Just black|
+
+### Player screen
+| <img src="" width="200"/>| <img src="" width="200"/>| <img src="" width="200"/>| <img src="" width="200"/>| <img src="" width="200"/>|
+|:---:|:---:|:---:|:---:|:---:|
+| Home | Songs | Albums | Artists | Settings |
