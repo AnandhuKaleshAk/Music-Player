@@ -11,7 +11,7 @@
   <a href="https://github.com/AnandhuKaleshAk/Music-Player/" style="text-decoration:none" area-label="Min API: 21">
     <img src="https://img.shields.io/badge/minSdkVersion-21-green.svg">
   </a>
-  <a href="https://play.google.com/store/apps/details?id=code.name.monkey.retromusic" style="text-decoration:none" area-label="Play Store">
+  <a href="https://play.google.com/store/apps/details?id=com.music.darkmusicplayer" style="text-decoration:none" area-label="Play Store">
     <img src="https://img.shields.io/badge/Download-Google_Play-green.svg">
   </a>
   <a href="https://github.com/AnandhuKaleshAk/Music-Player/blob/master/LICENSE.md" style="text-decoration:none" area-label="License: GPL v3">
