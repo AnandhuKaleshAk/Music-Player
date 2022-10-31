@@ -5,7 +5,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/RetroMusicPlayer/RetroMusicPlayer" style="text-decoration:none" area-label="Android">
+  <a href="https://github.com/AnandhuKaleshAk/Music-Player/" style="text-decoration:none" area-label="Android">
     <img src="https://img.shields.io/badge/Platform-Android-green.svg">
   </a>
   <a href="https://github.com/RetroMusicPlayer/RetroMusicPlayer/actions/workflows/android.yml" style="text-decoration:none" area-label="Build Status">
