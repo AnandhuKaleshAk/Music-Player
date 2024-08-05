@@ -106,7 +106,7 @@
                 >
 
 
-                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                <com.music.musiqplayer.customviews.VerticalSeekBarWrapper
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="8"
@@ -114,7 +114,7 @@
                     android:layoutDirection="ltr"
                     >
 
-                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                    <com.music.musiqplayer.customviews.VerticalSeekBar
                         android:id="@+id/hz80Seekar"
                         android:layout_width="0dp"
                         android:layout_height="0dp" style="@style/MySeekBar"
@@ -124,7 +124,7 @@
 
                         android:thumb="@drawable/custom_equalizer_thumb"
                         app:seekBarRotation="CW270" />
-                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+                </com.music.musiqplayer.customviews.VerticalSeekBarWrapper>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -149,7 +149,7 @@
                 android:layout_height="match_parent"
                 >
 
-                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                <com.music.musiqplayer.customviews.VerticalSeekBarWrapper
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="8"
@@ -157,7 +157,7 @@
                     android:layoutDirection="ltr"
                     >
 
-                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                    <com.music.musiqplayer.customviews.VerticalSeekBar
                         android:id="@+id/hz230Seekar"
                         android:layout_width="0dp"
                         android:layout_height="0dp" style="@style/MySeekBar"
@@ -167,7 +167,7 @@
 
                         android:thumb="@drawable/custom_equalizer_thumb"
                         app:seekBarRotation="CW270" />
-                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+                </com.music.musiqplayer.customviews.VerticalSeekBarWrapper>
 
 
 
@@ -197,7 +197,7 @@
                 android:layout_height="match_parent"
                 >
 
-                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                <com.music.musiqplayer.customviews.VerticalSeekBarWrapper
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="8"
@@ -205,7 +205,7 @@
                     android:layoutDirection="ltr"
                     >
 
-                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                    <com.music.musiqplayer.customviews.VerticalSeekBar
                         android:id="@+id/hz910Seekar"
                         android:layout_width="0dp"
                         android:layout_height="0dp" style="@style/MySeekBar"
@@ -215,7 +215,7 @@
 
                         android:thumb="@drawable/custom_equalizer_thumb"
                         app:seekBarRotation="CW270" />
-                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+                </com.music.musiqplayer.customviews.VerticalSeekBarWrapper>
 
 
 
@@ -243,7 +243,7 @@
                 android:layout_height="match_parent"
                 >
 
-                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                <com.music.musiqplayer.customviews.VerticalSeekBarWrapper
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="8"
@@ -251,7 +251,7 @@
                     android:layoutDirection="ltr"
                     >
 
-                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                    <com.music.musiqplayer.customviews.VerticalSeekBar
                         android:id="@+id/hz3600Seekar"
                         android:layout_width="0dp"
                         android:layout_height="0dp" style="@style/MySeekBar"
@@ -261,7 +261,7 @@
 
                         android:thumb="@drawable/custom_equalizer_thumb"
                         app:seekBarRotation="CW270" />
-                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+                </com.music.musiqplayer.customviews.VerticalSeekBarWrapper>
 
 
 
@@ -288,7 +288,7 @@
                 android:layout_height="match_parent"
                 >
 
-                <com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper
+                <com.music.musiqplayer.customviews.VerticalSeekBarWrapper
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="8"
@@ -296,7 +296,7 @@
                     android:layoutDirection="ltr"
                     >
 
-                    <com.music.darkmusicplayer.customviews.VerticalSeekBar
+                    <com.music.musiqplayer.customviews.VerticalSeekBar
                         android:id="@+id/hz14000Seekar"
                         android:layout_width="0dp"
                         android:layout_height="0dp" style="@style/MySeekBar"
@@ -306,7 +306,7 @@
 
                         android:thumb="@drawable/custom_equalizer_thumb"
                         app:seekBarRotation="CW270" />
-                </com.music.darkmusicplayer.customviews.VerticalSeekBarWrapper>
+                </com.music.musiqplayer.customviews.VerticalSeekBarWrapper>
 
 
 
@@ -345,13 +345,13 @@
             android:background="@android:color/transparent"
             android:orientation="horizontal">
 
-            <com.music.darkmusicplayer.customviews.AnalogController
+            <com.music.musiqplayer.customviews.AnalogController
                 android:id="@+id/controllerBass"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
-            <com.music.darkmusicplayer.customviews.AnalogController
+            <com.music.musiqplayer.customviews.AnalogController
                 android:id="@+id/controller3D"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"

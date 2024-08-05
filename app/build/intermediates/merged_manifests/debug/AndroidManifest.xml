@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.music.darkmusicplayer"
-    android:versionCode="1"
+    package="com.music.musiqplayer"
+    android:versionCode="2"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.music.darkmusicplayer.MyApplication"
+        android:name="com.music.musiqplayer.MyApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -28,14 +28,33 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.music.darkmusicplayer.ui.equalizer.EqualizerActivity" />
-        <activity android:name="com.music.darkmusicplayer.ui.settings.SettingsActivity" />
-        <activity android:name="com.music.darkmusicplayer.ui.sleeptimer.SleepTimerActivity" />
-        <activity android:name="com.music.darkmusicplayer.ui.search.SearchSongActivity" />
-        <activity android:name="com.music.darkmusicplayer.ui.artists.artistdetail.ArtistDetailFragment" />
-        <activity android:name="com.music.darkmusicplayer.ui.playlist.add.PlayListAddActivity" />
         <activity
-            android:name="com.music.darkmusicplayer.ui.main.MainActivity"
+            android:name="com.music.musiqplayer.ui.equalizer.EqualizerActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.settings.SettingsActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.sleeptimer.SleepTimerActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.search.SearchSongActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.artists.artistdetail.ArtistDetailFragment"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.playlist.add.PlayListAddActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.main.MainActivity"
+            android:exported="true"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -45,16 +64,16 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.music.darkmusicplayer.PlayerService" />
+        <service android:name="com.music.musiqplayer.PlayerService" />
 
         <provider
             android:name="com.amitshekhar.debug.DebugDBInitProvider"
-            android:authorities="com.music.darkmusicplayer.DebugDBInitProvider"
+            android:authorities="com.music.musiqplayer.DebugDBInitProvider"
             android:enabled="true"
             android:exported="false" />
         <provider
             android:name="com.amitshekhar.debug.encrypt.DebugDBEncryptInitProvider"
-            android:authorities="com.music.darkmusicplayer.DebugDBEncryptInitProvider"
+            android:authorities="com.music.musiqplayer.DebugDBEncryptInitProvider"
             android:enabled="true"
             android:exported="false" />
 
@@ -64,7 +83,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.music.darkmusicplayer.lifecycle-process"
+            android:authorities="com.music.musiqplayer.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

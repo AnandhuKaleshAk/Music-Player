@@ -7,7 +7,7 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.android.tools.build:gradle:7.0.0'
         
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -27,8 +27,8 @@ allprojects {
 ext {
     // Sdk and tools
     minSdkVersion = 21
-    targetSdkVersion = 30
-    compileSdkVersion = 30
+    targetSdkVersion = 33
+    compileSdkVersion = 33
 
     supportLibraryVersion = '1.0.0-beta01'
     gsonVersion = '2.8.0'
@@ -45,7 +45,7 @@ ext {
      rxjavaVersion='2.2.10'
      rxAndroidVersion='2.1.0'
     //room version
-    roomVersion="2.1.0"
+    roomVersion="2.4.0"
     //life cycle
      lifecycle_version = "2.0.0"
     //debug version

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.music.darkmusicplayer">
+    package="com.music.musiqplayer">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
@@ -11,7 +14,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.music.musiqplayer.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,15 +22,40 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.equalizer.EqualizerActivity"></activity>
-        <activity android:name=".ui.settings.SettingsActivity" />
-        <activity android:name=".ui.sleeptimer.SleepTimerActivity" />
-        <activity android:name=".ui.search.SearchSongActivity" />
-        <activity android:name=".ui.artists.artistdetail.ArtistDetailFragment" />
-        <activity android:name=".ui.playlist.add.PlayListAddActivity" />
         <activity
-            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:name="com.music.musiqplayer.ui.equalizer.EqualizerActivity">
+
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.music.musiqplayer.ui.settings.SettingsActivity" >
+
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.music.musiqplayer.ui.sleeptimer.SleepTimerActivity" >
+
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.music.musiqplayer.ui.search.SearchSongActivity" >
+
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.music.musiqplayer.ui.artists.artistdetail.ArtistDetailFragment" >
+
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.music.musiqplayer.ui.playlist.add.PlayListAddActivity" >
+
+        </activity>
+        <activity
+            android:name="com.music.musiqplayer.ui.main.MainActivity"
             android:label="@string/title_activity_home"
+            android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +64,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".PlayerService" />
+        <service android:name="com.music.musiqplayer.PlayerService" />
     </application>
 
 </manifest>
