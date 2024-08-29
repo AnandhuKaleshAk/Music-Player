@@ -1,16 +1,12 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.appcompat:appcompat:1.2.0@aar">
+  <library name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/d6e4bb2fe107bf07004e179b73aad5df/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/e8729b3a10f170c28b08ec1c1ea11079/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f39fc82983ddacf7f8a9d0255c590db4/transformed/appcompat-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/d6e4bb2fe107bf07004e179b73aad5df/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/d6e4bb2fe107bf07004e179b73aad5df/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/d6e4bb2fe107bf07004e179b73aad5df/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/e8729b3a10f170c28b08ec1c1ea11079/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/e8729b3a10f170c28b08ec1c1ea11079/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/e8729b3a10f170c28b08ec1c1ea11079/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f39fc82983ddacf7f8a9d0255c590db4/transformed/appcompat-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f39fc82983ddacf7f8a9d0255c590db4/transformed/appcompat-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f39fc82983ddacf7f8a9d0255c590db4/transformed/appcompat-1.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

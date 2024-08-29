@@ -1,12 +1,8 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.savedstate:savedstate:1.0.0@aar">
+  <library name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/947767e9443d469323b278d72617a76f/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/947767e9443d469323b278d72617a76f/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/947767e9443d469323b278d72617a76f/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/c2b62eb9b5f436611eecfa8ed2c59219/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/c2b62eb9b5f436611eecfa8ed2c59219/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/c2b62eb9b5f436611eecfa8ed2c59219/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2445322912db529b72d73c0bfcdbf0db/transformed/jetified-savedstate-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2445322912db529b72d73c0bfcdbf0db/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

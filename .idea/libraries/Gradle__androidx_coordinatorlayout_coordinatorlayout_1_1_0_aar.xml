@@ -1,16 +1,12 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar">
+  <library name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/87ad1ed71da40daf0176f786d3f0fc61/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/36e0994f940fd0ad2835e00cf5829726/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2365997c5712c09b8e040cdba48ec6f/transformed/coordinatorlayout-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/87ad1ed71da40daf0176f786d3f0fc61/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/87ad1ed71da40daf0176f786d3f0fc61/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/87ad1ed71da40daf0176f786d3f0fc61/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/36e0994f940fd0ad2835e00cf5829726/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/36e0994f940fd0ad2835e00cf5829726/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/36e0994f940fd0ad2835e00cf5829726/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2365997c5712c09b8e040cdba48ec6f/transformed/coordinatorlayout-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2365997c5712c09b8e040cdba48ec6f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2365997c5712c09b8e040cdba48ec6f/transformed/coordinatorlayout-1.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

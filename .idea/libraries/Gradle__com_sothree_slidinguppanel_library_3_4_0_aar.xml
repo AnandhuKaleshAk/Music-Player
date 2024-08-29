@@ -1,14 +1,13 @@
 <component name="libraryTable">
-  <library name="Gradle: com.sothree.slidinguppanel:library:3.4.0@aar">
+  <library name="Gradle: com.sothree.slidinguppanel:library:3.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/cd6954126e8b4a7a7d81c180788bb579/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/cd6954126e8b4a7a7d81c180788bb579/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/cd6954126e8b4a7a7d81c180788bb579/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/a073bebacdecce6c8fe3abcbdff8982c/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/a073bebacdecce6c8fe3abcbdff8982c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-3.4.0.aar/a073bebacdecce6c8fe3abcbdff8982c/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/98f4b39d984c35e6d0c2953dff75fd04/transformed/jetified-library-3.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/98f4b39d984c35e6d0c2953dff75fd04/transformed/jetified-library-3.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/98f4b39d984c35e6d0c2953dff75fd04/transformed/jetified-library-3.4.0/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sothree.slidinguppanel/library/3.4.0/4a781f463464e22af9342867e576c9381117d3bf/library-3.4.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sothree.slidinguppanel/library/3.4.0/28720c57763dbf7fd8abf4a2c63f7ed4cd04c460/library-3.4.0-sources.jar!/" />
     </SOURCES>

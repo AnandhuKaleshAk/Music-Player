@@ -1,12 +1,9 @@
 <component name="libraryTable">
-  <library name="Gradle: com.amitshekhar.android:debug-db:1.0.6@aar">
+  <library name="Gradle: com.amitshekhar.android:debug-db:1.0.6@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.6.aar/50ef39485053ae16800cfc51399fb574/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.6.aar/50ef39485053ae16800cfc51399fb574/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.6.aar/50ef39485053ae16800cfc51399fb574/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.6.aar/398e9e9769008a4706e1a6a77e347b74/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.6.aar/398e9e9769008a4706e1a6a77e347b74/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.6.aar/398e9e9769008a4706e1a6a77e347b74/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c72914d66f200abea32a3eb5fcd834ea/transformed/jetified-debug-db-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c72914d66f200abea32a3eb5fcd834ea/transformed/jetified-debug-db-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c72914d66f200abea32a3eb5fcd834ea/transformed/jetified-debug-db-1.0.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.6/341566ac110ceffb1b65c5eae63be69d867a8861/debug-db-1.0.6-javadoc.jar!/" />

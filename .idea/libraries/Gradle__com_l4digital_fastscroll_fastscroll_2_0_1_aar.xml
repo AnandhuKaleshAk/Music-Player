@@ -1,14 +1,13 @@
 <component name="libraryTable">
-  <library name="Gradle: com.l4digital.fastscroll:fastscroll:2.0.1@aar">
+  <library name="Gradle: com.l4digital.fastscroll:fastscroll:2.0.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/f7ebad1f29dc087932fdbf76c3d02d74/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/f7ebad1f29dc087932fdbf76c3d02d74/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/f7ebad1f29dc087932fdbf76c3d02d74/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/581a402c83045d48e7b225f275131fd5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/581a402c83045d48e7b225f275131fd5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastscroll-2.0.1.aar/581a402c83045d48e7b225f275131fd5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/84a8bb8f6fc8000b5e88c1b8460ed88e/transformed/jetified-fastscroll-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84a8bb8f6fc8000b5e88c1b8460ed88e/transformed/jetified-fastscroll-2.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84a8bb8f6fc8000b5e88c1b8460ed88e/transformed/jetified-fastscroll-2.0.1/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.l4digital.fastscroll/fastscroll/2.0.1/680821b6870aaed3ee43d9a77d3450dde80ccc70/fastscroll-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.l4digital.fastscroll/fastscroll/2.0.1/2fbe0ba60e2ce5fec937a2dc1451c691ac7a19fb/fastscroll-2.0.1-sources.jar!/" />
     </SOURCES>

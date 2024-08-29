@@ -1,16 +1,12 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar">
+  <library name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/01d5933143927496fbd8489874c83941/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/73a98b6c1aa97a78c38e324b5a5a7f80/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b799179d0f364501512efedbe756bc89/transformed/recyclerview-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/01d5933143927496fbd8489874c83941/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/01d5933143927496fbd8489874c83941/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/01d5933143927496fbd8489874c83941/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/73a98b6c1aa97a78c38e324b5a5a7f80/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/73a98b6c1aa97a78c38e324b5a5a7f80/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/73a98b6c1aa97a78c38e324b5a5a7f80/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b799179d0f364501512efedbe756bc89/transformed/recyclerview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b799179d0f364501512efedbe756bc89/transformed/recyclerview-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b799179d0f364501512efedbe756bc89/transformed/recyclerview-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

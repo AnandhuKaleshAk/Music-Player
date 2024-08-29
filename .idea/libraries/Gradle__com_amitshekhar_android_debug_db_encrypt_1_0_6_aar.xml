@@ -1,14 +1,13 @@
 <component name="libraryTable">
-  <library name="Gradle: com.amitshekhar.android:debug-db-encrypt:1.0.6@aar">
+  <library name="Gradle: com.amitshekhar.android:debug-db-encrypt:1.0.6@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-encrypt-1.0.6.aar/5e11983be65ef9304fbf186ac5259cc3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-encrypt-1.0.6.aar/5e11983be65ef9304fbf186ac5259cc3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-encrypt-1.0.6.aar/5e11983be65ef9304fbf186ac5259cc3/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-encrypt-1.0.6.aar/a28f481b0b78bdfc3fe542caf69b30b5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-encrypt-1.0.6.aar/a28f481b0b78bdfc3fe542caf69b30b5/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-encrypt-1.0.6.aar/a28f481b0b78bdfc3fe542caf69b30b5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aad91ef446b211690e555ef336d5f3a1/transformed/jetified-debug-db-encrypt-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aad91ef446b211690e555ef336d5f3a1/transformed/jetified-debug-db-encrypt-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aad91ef446b211690e555ef336d5f3a1/transformed/jetified-debug-db-encrypt-1.0.6/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db-encrypt/1.0.6/cfbc9a28b906db3094fea7e436c1716d2750fc45/debug-db-encrypt-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db-encrypt/1.0.6/f17a9344e0012205bd23fbddf204fd22a56163e7/debug-db-encrypt-1.0.6-sources.jar!/" />
     </SOURCES>
