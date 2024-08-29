@@ -8,16 +8,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.music.musiqplayer.EventBus;
 import com.music.musiqplayer.MyApplication;
 import com.music.musiqplayer.R;
 import com.music.musiqplayer.adapter.SongListAdapter;
 import com.music.musiqplayer.data.model.Song;
 import com.music.musiqplayer.ui.base.BaseFragment;
+import com.music.musiqplayer.ui.main.MainActivity;
 
 import java.util.List;
 
@@ -40,6 +48,10 @@ public class SongFragments extends BaseFragment implements ISongsListView {
     private static final String FOLDER_SONG= "foldersong";
 
     private List<Song> mSongList;
+
+    private InterstitialAd mInterstitialAd;
+
+    private final String adUnitId = "ca-app-pub-1159766989226286/6039771769"; // Replace with your real Ad Unit ID
 
 
     @Override
@@ -70,6 +82,7 @@ public class SongFragments extends BaseFragment implements ISongsListView {
                                 mSongList = sendSongList.getmSongList();
                                 Log.d(TAG, "onLocalMusicLoaded: "+sendSongList.getmSongList().size());
                                 mSongListAdapter.setmSongList(mSongList);
+                                 showInterstitialAd();
                             }
                         }
                 );
@@ -85,7 +98,56 @@ public class SongFragments extends BaseFragment implements ISongsListView {
         ButterKnife.bind(this, view);
         setDefaults();
         new SongsListPresenter(this).loadLocalMusic();
+        loadInterstitialAd();
 
+    }
+
+
+
+    private void loadInterstitialAd() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        InterstitialAd.load(requireContext(), adUnitId, adRequest, new InterstitialAdLoadCallback() {
+            @Override
+            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                mInterstitialAd = interstitialAd;
+                // Set the full-screen content callback
+                mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                    @Override
+                    public void onAdDismissedFullScreenContent() {
+                        // Code to be executed when the interstitial ad is dismissed.
+                        mInterstitialAd = null; // Load another ad
+                        loadInterstitialAd();
+                    }
+
+                    @Override
+                    public void onAdFailedToShowFullScreenContent(AdError adError) {
+                        // Code to be executed when the ad failed to display.
+                        mInterstitialAd = null;
+                    }
+
+                    @Override
+                    public void onAdShowedFullScreenContent() {
+                        // Code to be executed when the ad is shown.
+                        mInterstitialAd = null;
+                    }
+                });
+            }
+
+            @Override
+            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                // Handle the error
+                mInterstitialAd = null;
+            }
+        });
+    }
+
+    private void showInterstitialAd() {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show(requireActivity());
+        } else {
+            // Ad wasn't ready; load another ad
+            loadInterstitialAd();
+        }
     }
 
     @Override

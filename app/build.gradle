@@ -77,4 +77,7 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$rootProject.GlideVersion"
     annotationProcessor "com.github.bumptech.glide:compiler:$rootProject.GlideVersion"
 
+    implementation 'com.google.android.gms:play-services-ads:23.3.0'
+    implementation 'com.google.android.ump:user-messaging-platform:3.0.0'
+
 }

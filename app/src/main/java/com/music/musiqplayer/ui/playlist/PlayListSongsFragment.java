@@ -50,6 +50,8 @@ public class PlayListSongsFragment extends BaseFragment {
 
     }
     private void init(){
+
+
         Bundle bundle=getArguments();
         if(bundle!=null){
             mRecyclerViewSongPlayList.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -59,6 +61,8 @@ public class PlayListSongsFragment extends BaseFragment {
             mSongListAdapter.setmSongList(mSongList);
         }
     }
+
+
 
 
 

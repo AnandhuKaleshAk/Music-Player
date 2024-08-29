@@ -25,6 +25,13 @@ import android.view.View;
 
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.music.musiqplayer.AppUtils;
 import com.music.musiqplayer.EventBus;
 import com.music.musiqplayer.MyApplication;
@@ -181,15 +188,22 @@ public class MainActivity extends BaseActivity implements IMainMvpView, ViewPage
 
     private static final int PERMISSION = 101;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
-        checkPermission();
+        try {
+            checkPermission();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         init();
 
     }
+
+
 
 
     @Override
@@ -203,17 +217,17 @@ public class MainActivity extends BaseActivity implements IMainMvpView, ViewPage
         mAppUtils = new AppUtils(this);
         View headerView = mNavigationView.getHeaderView(0);
         mSongTimerTextView = headerView.findViewById(R.id.timerNavTextview);
-        mNavigationDrawerImageView=headerView.findViewById(R.id.navDrawerImageView);
+        mNavigationDrawerImageView = headerView.findViewById(R.id.navDrawerImageView);
         mNavigationDrawerImageView.setImageResource(R.drawable.ic_music_image);
-        mSongNamNavTextView=headerView.findViewById(R.id.name_nav_textview);
-        mSongArtistItemTextView=headerView.findViewById(R.id.artist_nav_textview);
+        mSongNamNavTextView = headerView.findViewById(R.id.name_nav_textview);
+        mSongArtistItemTextView = headerView.findViewById(R.id.artist_nav_textview);
 
         ColorStateList csl = new ColorStateList(
-                new int[][] {
-                        new int[] {-android.R.attr.state_checked}, // unchecked
-                        new int[] { android.R.attr.state_checked}  // checked
+                new int[][]{
+                        new int[]{-android.R.attr.state_checked}, // unchecked
+                        new int[]{android.R.attr.state_checked}  // checked
                 },
-                new int[] {
+                new int[]{
                         Color.WHITE,
                         Color.RED
                 }
@@ -226,13 +240,26 @@ public class MainActivity extends BaseActivity implements IMainMvpView, ViewPage
     }
 
 
-    private void checkPermission() {
+    private void initialiseAd() {
+        new Thread(
+                () -> {
+                    // Initialize the Google Mobile Ads SDK on a background thread.
+                    MobileAds.initialize(this, initializationStatus -> {
+                    });
+                })
+                .start();
+
+    }
+
+    private void checkPermission() throws InterruptedException {
         if (!checkingPermissionIsEnabledOrNot()) {
             showPermissionPopUp();
         } else {
             setUP();
             events();
             evenListeners();
+            initialiseAd();
+
         }
 
     }
