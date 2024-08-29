@@ -30,8 +30,8 @@ allprojects {
 ext {
     // Sdk and tools
     minSdkVersion = 21
-    targetSdkVersion = 33
-    compileSdkVersion = 33
+    targetSdkVersion = 34
+    compileSdkVersion = 34
 
     supportLibraryVersion = '1.0.0-beta01'
     gsonVersion = '2.8.0'
