@@ -106,7 +106,7 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
     private void registerAudioIntent() {
         //Register playNewMedia receiver
         IntentFilter filter = new IntentFilter(MainActivity.BROADCAST_PLAYER);
-        registerReceiver(mSongReceiver, filter);
+        registerReceiver(mSongReceiver, filter, Context.RECEIVER_NOT_EXPORTED);
     }
 
     private void registerBecomingNoisyReceiver() {
